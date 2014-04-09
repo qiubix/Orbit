@@ -3,7 +3,7 @@
 
 class Comet : public Orb {
 protected:
-	double vx;
+	double vx; 
 	double vy;
 	double ax;
 	double ay;
