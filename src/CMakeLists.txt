@@ -1,0 +1,4 @@
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+
+file(GLOB PROJECT_SRC_LIST *.cpp)
+add_executable(${PROJECT_NAME} ${PROJECT_SRC_LIST}) 
